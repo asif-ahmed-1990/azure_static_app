@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     async fetchdata() {
-      const data = await fetch('http://0.0.0.0:4280/api/Sum');
+      const data = await fetch('/api/Sum');
       this.jsondata = data;
     }
   },
